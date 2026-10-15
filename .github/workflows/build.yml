@@ -84,7 +84,7 @@ jobs:
           server_pid=$!
           ready=0
           for _ in $(seq 1 90); do
-            if grep -Fq 'Enabling Farms v1.0-non-alpha' "$runtime/server.log"; then ready=1; fi
+            if grep -Fq 'Enabling Farms v1.0.0' "$runtime/server.log"; then ready=1; fi
             if grep -Fq 'Done (' "$runtime/server.log"; then break; fi
             if ! kill -0 "$server_pid" 2>/dev/null; then cat "$runtime/server.log"; exit 1; fi
             sleep 1
