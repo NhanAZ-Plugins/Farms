@@ -1,6 +1,14 @@
 # Farms
 
-Farms speeds up the growth stages of player-planted wheat, carrots, potatoes, beetroot, sugar cane, pumpkin stems and melon stems. The `growing-time` setting in `speed.yml` is the number of one-second checks between stages; `0` advances eligible crops on each check. Mature blocks return to normal Axolotl-PM growth behavior.
+Crop growth management plugin for Axolotl-PM API 5.
+
+[![CI](https://github.com/NhanAZ-Plugins/Farms/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/Farms/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/Farms)](https://github.com/NhanAZ-Plugins/Farms/releases/latest)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Compatibility and validation
 
@@ -15,5 +23,3 @@ New records include the world folder name and block coordinates. Older coordinat
 ## Credits and distribution
 
 The manifest retains the `Dấu Tên` author and `Ghast Noob` edit credits. This repository has no LICENSE file or verified redistribution grant, so no license was added and no stable release was published.
-
-For questions about the NhanAZ ecosystem, use [NhanAZ Discord](https://discord.gg/j2X83ujT6c).
