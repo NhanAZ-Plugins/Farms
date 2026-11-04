@@ -19,4 +19,9 @@ New records include the world folder name and block coordinates. Older coordinat
 
 ## Credits and distribution
 
-The manifest retains the `Dấu Tên` author and `Ghast Noob` edit credits. This repository has no LICENSE file or verified redistribution grant, so no license was added and no stable release was published.
+The manifest retains the `NhanAZ` author and `NhanAZ` edit credits. This repository has no LICENSE file or verified redistribution grant, so no license was added and no stable release was published.
+
+
+## Credits
+
+Authors: NhanAZ.
